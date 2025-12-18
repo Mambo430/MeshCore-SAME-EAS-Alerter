@@ -26,7 +26,7 @@ No warranty is provided - use at your own risk.
 Installation example for Raspbian
 1. Install rtl_fm.  
    follow these [instructions](https://fuzzthepiguy.tech/rtl_fm-install/)
-2. Install Python MeshCore.__
+2. Install Python MeshCore.
 ````
 pip install meshcore
 ````
@@ -35,7 +35,6 @@ pip install meshcore
 ````
 pipx install meshcore-cli
 ````
-   It will install you `meshcore-cli` and `meshcli`, which is an alias to the former.__
 4. Install Meshtastic-SAME-EAS-Alerter
 ````
 # Download the updated .deb file
