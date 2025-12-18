@@ -18,7 +18,7 @@ The MeshCore SAME EAS Alerter is a lightweight tool designed to forward warnings
 ## Legal
 This project is neither endorsed by nor supported by MeshCore.
 
-No warranty is provided - use at your own risk.
+MeshCore is open-source software released under the MIT License. You are free to use, modify, and distribute it for personal and commercial projects. No warranty is provided - use at your own risk.
 
 
 ## 💿 Installation
