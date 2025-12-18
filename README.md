@@ -35,7 +35,7 @@ pip install meshcore
 ````
 pipx install meshcore-cli
 ````
-4. Install Meshtastic-SAME-EAS-Alerter
+4. Install MeshCore-SAME-EAS-Alerter.
 ````
 # Download the updated .deb file
 wget https://github.com/Mambo430/MeshCore-SAME-EAS-Alerter/releases/download/v<VERSION_NUMBER_HERE>/Meshtastic-SAME-EAS-Alerter_<VERSION_NUMBER_HERE>_arm64.deb
