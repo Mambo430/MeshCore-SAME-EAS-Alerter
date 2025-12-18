@@ -74,6 +74,12 @@ MeshCore-SAME-EAS-Alerter --help
 MeshCore-SAME-EAS-Alerter --host <TCP_HOST_HERE>
 ```
 
+### port
+- Enter the serial port to connect to, in the form of /dev/ttyACM0
+```
+MeshCore-SAME-EAS-Alerter --port <TCP_HOST_HERE>
+```
+
 ### alert channel  
 - Input the channel number that alerts will be sent to  
 - By default, (if nothing is provided) alerts will be sent to channel number 0  
@@ -123,6 +129,10 @@ rtl_fm -f <FREQUENCY_IN_HZ_HERE> -s 48000 -r 48000 | MeshCore-SAME-EAS-Alerter -
 or
 ````
 rtl_fm -f <FREQUENCY_IN_HZ_HERE> -s 48000 -r 48000 | MeshCore-SAME-EAS-Alerter --host <TCP_HOST_HERE> --alert-channel <CHANNEL_NUMBER_HERE> --test-channel <CHANNEL_NUMBER_HERE>
+````
+or
+````
+rtl_fm -f <FREQUENCY_IN_HZ_HERE> -s 48000 -r 48000 | MeshCore-SAME-EAS-Alerter --port <SERIAL_PORT_HERE> --alert-channel <CHANNEL_NUMBER_HERE> --test-channel <CHANNEL_NUMBER_HERE>
 ````
 > Remember to replace the placeholder values
 
