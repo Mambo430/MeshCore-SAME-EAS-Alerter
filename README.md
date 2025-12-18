@@ -35,7 +35,7 @@ pip install meshcore
 ````
 pipx install meshcore-cli
 ````
-   It will install you `meshcore-cli` and `meshcli`, which is an alias to the former.
+   It will install you `meshcore-cli` and `meshcli`, which is an alias to the former.__
 4. Install Meshtastic-SAME-EAS-Alerter
 ````
 # Download the updated .deb file
