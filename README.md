@@ -143,6 +143,7 @@ If you need assistance deploying an alerter feel free to contact me
 - Email: meshcore.establish625@passmail.net
 
 # Credit
-I want to give credit to RCGV1 (RCGV_) for the creation of the Meshtastic-SAME-EAS-Alerter in which this was converted from. https://github.com/RCGV1/Meshtastic-SAME-EAS-Alerter
+I want to give credit to RCGV1 (RCGV_) for the creation of the Meshtastic-SAME-EAS-Alerter in which this was converted from. 
+https://github.com/RCGV1/Meshtastic-SAME-EAS-Alerter
 
 
