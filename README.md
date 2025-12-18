@@ -10,7 +10,7 @@
 </a>
 
 <a href="https://meshcore.co.uk" class="image-container">
-    <img src="https://github.com/meshcore-dev/MeshCore/blob/main/logo/meshcore.png?raw=true" width=180>
+    <img src="https://github.com/meshcore-dev/MeshCore/blob/main/logo/meshcore.png?raw=true" width=200>
 </a>
 
 The MeshCore SAME EAS Alerter is a lightweight tool designed to forward warnings, emergencies, or statements sent over the air to a local MeshCore network. It operates without needing a WiFi connection. The setup involves connecting the hosting computer to an RTL SDR via USB and to a running MeshCore Companion node via serial or TCP.
