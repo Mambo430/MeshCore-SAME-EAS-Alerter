@@ -77,7 +77,7 @@ MeshCore-SAME-EAS-Alerter --host <TCP_HOST_HERE>
 ### port
 - Enter the serial port to connect to, in the form of /dev/ttyACM0
 ```
-MeshCore-SAME-EAS-Alerter --port <TCP_HOST_HERE>
+MeshCore-SAME-EAS-Alerter --port <SERIAL_PORT_HERE>
 ```
 
 ### alert channel  
