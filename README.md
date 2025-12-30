@@ -38,10 +38,10 @@ pipx install meshcore-cli
 4. Install MeshCore-SAME-EAS-Alerter.
 ````
 # Download the updated .deb file
-wget https://github.com/Mambo430/MeshCore-SAME-EAS-Alerter/releases/download/v<VERSION_NUMBER_HERE>/MeshCore-SAME-EAS-Alerter_<VERSION_NUMBER_HERE>_arm64.deb
+wget https://github.com/Mambo430/MeshCore-SAME-EAS-Alerter/releases/download/v<VERSION_NUMBER_HERE>/meshcore-same-eas-alerter_<VERSION_NUMBER_HERE>_arm64.deb
 
 # Install the .deb package
-sudo dpkg -i MeshCore-SAME-EAS-Alerter_<VERSION_NUMBER_HERE>_arm64.deb
+sudo dpkg -i meshcore-same-eas-alerter_<VERSION_NUMBER_HERE>_arm64.deb
 
 # Fix any dependency issues
 sudo apt-get install -f
