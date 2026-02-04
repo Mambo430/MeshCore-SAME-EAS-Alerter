@@ -28,7 +28,7 @@ Installation example for Raspbian
    follow these [instructions](https://fuzzthepiguy.tech/rtl_fm-install/)
 2. Install Python MeshCore.
 ````
-pip install meshcore
+pipx install meshcore
 ````
 3. Install the MeshCore CLI.  
    Follow these [instructions](https://github.com/meshcore-dev/meshcore-cli)
