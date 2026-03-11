@@ -50,7 +50,7 @@ sudo apt-get install -f
 ## 💿 Automated Installation (RECOMMENDED)
 1. Install RTL-SDR, MeshCore and MeshCore-CLI
 ````
-curl -fsSL https://raw.githubusercontent.com/Mambo430/MeshCore-SAME-EAS-Alerter/refs/heads/main/rtl-sdr_meshcore_installer.sh | bash
+curl -fsSL https://raw.githubusercontent.com/Mambo430/MeshCore-SAME-EAS-Alerter/refs/heads/main/rtl-sdr_meshcore_installer.sh | sudo bash
 ````
 2. Install MeshCore-SAME-EAS-Alerter.
 ````
