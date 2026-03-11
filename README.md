@@ -21,7 +21,7 @@ This project is neither endorsed by nor supported by MeshCore.
 MeshCore is open-source software released under the MIT License. You are free to use, modify, and distribute it for personal and commercial projects. No warranty is provided - use at your own risk.
 
 
-## 💿 Installation
+## 💿 Standard Installation
 # ATTENTION: For the newest version you must install the python CLI  
 Installation example for Raspbian
 1. Install rtl_fm.  
@@ -36,6 +36,23 @@ pip install meshcore
 pip install meshcore-cli
 ````
 4. Install MeshCore-SAME-EAS-Alerter.
+````
+# Download the updated .deb file
+wget https://github.com/Mambo430/MeshCore-SAME-EAS-Alerter/releases/download/v<VERSION_NUMBER_HERE>/meshcore-same-eas-alerter_<VERSION_NUMBER_HERE>_arm64.deb
+
+# Install the .deb package
+sudo dpkg -i meshcore-same-eas-alerter_<VERSION_NUMBER_HERE>_arm64.deb
+
+# Fix any dependency issues
+sudo apt-get install -f
+````
+
+## 💿 Automated Installation (RECOMMENDED)
+1. Install RTL-SDR, MeshCore and MeshCore-CLI
+````
+curl -fsSL https://raw.githubusercontent.com/Mambo430/MeshCore-SAME-EAS-Alerter/refs/heads/main/rtl-sdr_meshcore_installer.sh | bash
+````
+2. Install MeshCore-SAME-EAS-Alerter.
 ````
 # Download the updated .deb file
 wget https://github.com/Mambo430/MeshCore-SAME-EAS-Alerter/releases/download/v<VERSION_NUMBER_HERE>/meshcore-same-eas-alerter_<VERSION_NUMBER_HERE>_arm64.deb
