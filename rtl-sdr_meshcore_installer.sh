@@ -69,6 +69,7 @@ sudo apt install -y python3-pip
 
 # Step 4: Create virtual environment and install meshcore
 echo "Creating virtual environment..."
+sudo -u "$(logname)" bash << 'EOF'
 cd ~
 python3 -m venv venv
 source venv/bin/activate
@@ -79,6 +80,7 @@ pip install meshcore-cli
 
 echo "Deactivating virtual environment"
 deactivate
+EOF
 
 echo "Installation of RTL-SDR and MeshCore completed successfully!"
 echo "Please reboot!"
