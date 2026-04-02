@@ -69,16 +69,17 @@ sudo apt install -y python3-pip
 
 # Step 4: Create virtual environment and install meshcore
 echo "Creating virtual environment..."
-sudo -u "$(logname)" bash << 'EOF'
-cd ~
+sudo -H -u "$(logname)" bash <<'EOF'
+# ---------- user‑section ----------
+echo "User HOME = $HOME"   # should print /home/<user>
+
+cd "$HOME"                # or simply: cd ~
 python3 -m venv venv
 source venv/bin/activate
 
-echo "Installing meshcore packages..."
-pip install meshcore
-pip install meshcore-cli
+pip install --upgrade pip
+pip install meshcore meshcore-cli
 
-echo "Deactivating virtual environment"
 deactivate
 EOF
 
