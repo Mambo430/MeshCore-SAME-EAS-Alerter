@@ -81,6 +81,12 @@ pip install --upgrade pip
 pip install meshcore meshcore-cli
 
 deactivate
+
+# Add this line to the end of your ~/.profile or ~/.bashrc
+echo 'export PATH="$HOME/venv/bin:$PATH"' >> ~/.profile
+
+# Reload the profile (or log out / log back in)
+source ~/.profile
 EOF
 
 echo "Installation of RTL-SDR and MeshCore completed successfully!"
