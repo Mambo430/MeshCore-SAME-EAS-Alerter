@@ -153,6 +153,19 @@ rtl_fm -f <FREQUENCY_IN_HZ_HERE> -s 48000 -r 48000 | MeshCore-SAME-EAS-Alerter -
 ````
 > Remember to replace the placeholder values
 
+##Automated Service Install
+Once you have installed and tested that everything works correctly you can run the following scripts to autorun after reboot.
+````
+wget https://raw.githubusercontent.com/Mambo430/MeshCore-SAME-EAS-Alerter/refs/heads/main/meshcore-same-eas-alerter.sh
+sudo chmod +x meshcore-same-eas-alerter.sh
+wget https://raw.githubusercontent.com/Mambo430/MeshCore-SAME-EAS-Alerter/refs/heads/main/meshcore-same-eas-alerter.service
+sudo cp meshcore-same-eas-alerter.service /etc/systemd/system/
+sudo systemctl daemon-reload
+sudo systemctl enable meshcore-same-eas-alerter.service
+sudo systemctl start meshcore-same-eas-alerter.service
+````
+
+Make sure to change the username from `pi` to the correct username for your environment. Also, make sure to change the device `-d` and `--port` in the script to the correct ones for your setup.
 
 # 📇 Contact
 If you need assistance deploying an alerter feel free to contact me
