@@ -153,7 +153,7 @@ rtl_fm -f <FREQUENCY_IN_HZ_HERE> -s 48000 -r 48000 | MeshCore-SAME-EAS-Alerter -
 ````
 > Remember to replace the placeholder values
 
-##Automated Service Install
+## Automated Service Install
 Once you have installed and tested that everything works correctly you can run the following scripts to autorun after reboot.
 ````
 wget https://raw.githubusercontent.com/Mambo430/MeshCore-SAME-EAS-Alerter/refs/heads/main/meshcore-same-eas-alerter.sh
