@@ -1,0 +1,21 @@
+# /etc/systemd/system/meshcore-same-eas-alerter.service
+[Unit]
+Description=RTL‑SDR MeshCore SAME EAS Alerter
+After=network.target
+
+[Service]
+# Run as the normal user that owns the venv
+User=pi
+# Ensure the script’s directory is current working directory
+WorkingDirectory=/home/pi
+# Tell systemd where to find meshcli
+Environment=PATH=/home/pi/venv/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+# (adjust the first part if the venv lives elsewhere)
+ExecStart=/home/pi/meshcore-same-eas-alerter.sh
+Restart=always
+RestartSec=5s
+StandardOutput=journal
+StandardError=journal
+
+[Install]
+WantedBy=multi-user.target
